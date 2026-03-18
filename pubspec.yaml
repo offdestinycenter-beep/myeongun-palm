@@ -1,0 +1,43 @@
+name: myeongun_palm
+description: "명운관 손금 - AI 손금 분석 앱"
+publish_to: 'none'
+version: 2.0.0+2
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  camera: ^0.11.0+2
+  path_provider: ^2.1.5
+  path: ^1.9.0
+  http: ^1.2.2
+  google_mobile_ads: ^5.3.0
+  lottie: ^3.3.1
+  flutter_animate: ^4.5.2
+  image: ^4.5.2
+  permission_handler: ^11.3.1
+  provider: ^6.1.2
+  share_plus: ^10.1.4
+  shared_preferences: ^2.3.4
+  hand_landmarker: ^2.1.1
+
+  # v2.0 additions
+  firebase_core: ^3.12.1
+  firebase_crashlytics: ^4.3.5
+  smooth_page_indicator: ^1.2.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/animations/
